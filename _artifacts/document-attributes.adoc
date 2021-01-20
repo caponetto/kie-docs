@@ -1,13 +1,14 @@
 
-:REBUILT: Wednesday, August 12, 2020
+:REBUILT: Monday, January 18, 2021
 
-:ENTERPRISE_VERSION: 7.9
-:ENTERPRISE_VERSION_LONG: 7.9.0
+
+:ENTERPRISE_VERSION: 7.10
+:ENTERPRISE_VERSION_LONG: 7.10.0
 :COMMUNITY_VERSION: 7.44
 :COMMUNITY_VERSION_LONG: 7.44.0
 :COMMUNITY_VERSION_FINAL: {COMMUNITY_VERSION_LONG}.Final
 :COMMUNITY_VERSION_BRANCH: 7.44.x
-:ENTERPRISE_VERSION_SHORT: 79
+:ENTERPRISE_VERSION_SHORT: 710
 
 // For copyright
 :YEAR: 2020
@@ -77,16 +78,20 @@ endif::OP[]
 :WEBSPHERE_SHORT: IBM WebSphere
 :WEBLOGIC: Oracle WebLogic Server
 :WEBLOGIC_SHORT: Oracle Weblogic
+:AMQ: Red Hat AMQ
+:AMQ_VERSION: 7.7
+:AMQ_STREAMS: AMQ Streams
+:AMQ_STREAMS_VERSION: 1.6
 :AMQ_BROKER: AMQ Broker
 :AMQ_BROKER_LONG: Red Hat AMQ Broker
 :AMQ_BROKER_VERSION: 7.7
 :AMQ_BROKER_VERSION_LONG: 7.7.0
 :CODEREADY_STUDIO: Red Hat CodeReady Studio
-:CODEREADY_STUDIO_VERSION: 12.16
-:CODEREADY_STUDIO_VERSION_LONG: 12.16.0
+:CODEREADY_STUDIO_VERSION: 12.17
+:CODEREADY_STUDIO_VERSION_LONG: 12.17.0
 :DATAGRID: Red Hat Data Grid
 :DATAGRID_VERSION: 7.3
-:DATAGRID_VERSION_LONG: 7.3.1
+:DATAGRID_VERSION_LONG: 7.3.6
 :EAP: Red Hat JBoss EAP
 :EAP_LONG: Red Hat JBoss Enterprise Application Platform
 :EAP_VERSION: 7.3
@@ -95,13 +100,14 @@ endif::OP[]
 :FUSE_LONG: Red Hat Fuse
 :FUSE_VERSION: 7.7
 :JWS: Red Hat JBoss Web Server
-:JWS_VERSION: 5.4
-:JWS_VERSION_LONG: 5.4.0
+:JWS_VERSION: 5.3
+:JWS_VERSION_LONG: 5.3.0
 :TOMCAT: Apache Tomcat
 :TOMCAT_VERSION: 9.0
 :OPENSHIFT: Red Hat OpenShift Container Platform
+:RH-SSO: Red Hat Single Sign-On
 :RH-SSO_VERSION: 7.4
-:RH-SSO_VERSION_LONG: 7.4.0
+:RH-SSO_VERSION_LONG: 7.4.3
 
 // Component names
 :KIE_SERVER: KIE Server
@@ -150,7 +156,7 @@ endif::OP[]
 :GETTING_STARTED_PROCESSES: Getting started with business processes
 :GETTING_STARTED_PLANNER: Getting started with {PLANNER}
 :CREATING_SPRING_BOOT_APPLICATIONS: Creating {PRODUCT} business applications with Spring Boot
-:PLANNER_WITH_SPRING_BOOT: Using {PLANNER} with Spring Boot
+:PLANNER_WITH_SPRING_BOOT: Creating a school timetable using {PLANNER} with Spring Boot
 
 :DRL_RULES: Designing a decision service using DRL rules
 :GUIDED_DECISION_TABLES: Designing a decision service using guided decision tables
@@ -172,6 +178,7 @@ endif::OP[]
 
 :RUNNING_ROSTER_FOR_PLANNER_OPENSHIFT: Deploying and using the employee rostering starter application for {PLANNER} on {OPENSHIFT}
 :RUNNING_ROSTER_FOR_PLANNER_IDE: Running and modifying the employee rostering starter application for {PLANNER} using an IDE
+:RUNNING_VRP_FOR_PLANNER: Deploying and using the vehicle route planning starter application for {PLANNER}
 
 :PACKAGING_DEPLOYING_PROJECT: Packaging and deploying a {PRODUCT} project
 :MANAGING_ASSETS: Managing assets in {CENTRAL}
